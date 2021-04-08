@@ -1,15 +1,7 @@
 <script>
-
-function checkforblank(form)
-{
- if (form.inputfield.value == ""){
-    alert("errormessage");
-    form.inputfield.focus();
-    return false;
- }
-
-
-}
+    function sample() {
+        console.log('happpy')
+    }
 
 </script>
 

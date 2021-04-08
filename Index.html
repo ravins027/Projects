@@ -2,16 +2,23 @@
 <html>
 <head>
     <title>Form</title>
-    <script type="text/javascript" src="script.js"></script>
+    
     <h1>Invoice</h1>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <script>
+        function test(){
+            console.log('you clicked me');
+        }
+        function hola(){
+            alert('hi');
+        }
+    </script>
 </head>
 <body>
 <div id ="error"></div>
 <div id="form">
     <h3>Billing Information</h3>
-    <form method="post" action="#" onsubmit="return checkforblank(this);">
+    <form method="post" action="#" onsubmit="hola()">
         <div id="labels">
             <label>Customer Name : </label><br>
             <label>Address : </label><br>
