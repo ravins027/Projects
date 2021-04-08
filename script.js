@@ -1,4 +1,4 @@
-/*<script>
+<script>
 
 function checkforblank(form)
 {
@@ -12,7 +12,7 @@ function checkforblank(form)
 }
 
 </script>
-*/
+
 
 
 
@@ -25,112 +25,7 @@ function checkforblank(form)
 /*
 
 
-
-/*
-<script>
-    function checkforblank() {
-        var name = document.forms["RegForm"]["Name"];
-        var email = document.forms["RegForm"]["EMail"];
-        var phone = document.forms["RegForm"]["Telephone"];
-        var what = document.forms["RegForm"]["Subject"];
-        var password = document.forms["RegForm"]["Password"];
-        var address = document.forms["RegForm"]["Address"];
-  
-        if (name.value == "") {
-            window.alert("Please enter your name.");
-            name.focus();
-            return false;
-        }
-  
-        if (address.value == "") {
-            window.alert("Please enter your address.");
-            address.focus();
-            return false;
-        }
-  
-        if (email.value == "") {
-            window.alert(
-              "Please enter a valid e-mail address.");
-            email.focus();
-            return false;
-        }
-  
-        if (phone.value == "") {
-            window.alert(
-              "Please enter your telephone number.");
-            phone.focus();
-            return false;
-        }
-  
-        if (password.value == "") {
-            window.alert("Please enter your password");
-            password.focus();
-            return false;
-        }
-  
-        if (what.selectedIndex < 1) {
-            alert("Please enter your course.");
-            what.focus();
-            return false;
-        }
-  
-        return true;
-    }
-</script>
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -149,18 +44,18 @@ function checkforblank(form)
             }) .trigger("focusout");
         }); 
 */
-
+/*
 
 <script>
 function checkforblank() {
 
-    if (document.getElementByname('customer name').value == "") {
+    if (document.getElementById('cname').value == "") {
         alert('Please enter your first name');
-        document.getElementById('customer name').style.borderColor = "red";
+        document.getElementById('cname').style.borderColor = "red";
         return false;
         }
 
-    }    /*
+    }    
         
         var input = document.getElementById('form').style.borderColor = 'red';
     }
@@ -173,9 +68,9 @@ function checkforblank() {
         alert(errormessage);
         return false;
         }
-    }*/
+    }
 
-    </script>*/*/
+    </script>*/*/*/
 
 
 
