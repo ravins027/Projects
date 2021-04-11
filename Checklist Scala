@@ -1,0 +1,44 @@
+DUE DATE MAY 31,2021
+
+•    Backend
+o    Scala
+            Basics
+•    Polymorphism
+•    val vs var
+•    for comprehension
+•    map vs flatmap
+•    recursive
+•    
+    Collection frameworks
+    Futures
+    Frameworks
+•    Play
+•    Akka
+
+•    Front-end
+o    Plain javascript, jQuery, Bootstrap
+•    Frameworks
+o    Spring Boot, Spring Security, Spring REST,
+o    Akka
+
+Database
+MySQL, EScache
+
+Dev-OPS:
+AWS,
+Docker,
+Jenkins
+Repositories
+Git commands
+
+Tools: (least prio)
+Gatling, JMeter
+
+Methodologies:
+Agile Scrum
+1.    Refinement –
+a.    user story clarification
+2.    Planning –
+a.    Sprint number of stories, story point evaluation
+3.    Retrospective –
+a.    end of sprint, how did the sprint go, what went wrong, what can be improve
